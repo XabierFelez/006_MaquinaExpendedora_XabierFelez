@@ -8,16 +8,14 @@ public class MaquinaTest {
 
 	private static final Scanner teclado = new Scanner (System.in);
 	private static Bebidas b= new Bebidas();
-	
+	private static Maquina p= new Maquina();
 
-	public final void Stock()
-	{
-		b.getCantidad();
-	}
+	
+	
 	
 	public static void main(String[] args) 
 	{
-		final int PRECIO = 50;
+		final int PRECIO = p.precios ;
 		int centimos;
 		
 		
